@@ -4,8 +4,8 @@ Description: Config for release versions
 RunTests: FALSE
 Roots: # Require ve.root and ve.output at a minimum
     ve.root:
-        path: ../VisionEval-dev
-        branch: development
+        path: ../VisionEval-Dev
+        branch: master
     ve.output: ../VE-Built-Development
 Locations: # "Root" elements are variables defined in "Roots" section
     ve.dependencies:  # Required
